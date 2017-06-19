@@ -1,13 +1,15 @@
 package LeetCode.Problems.AddTwoNumbers;
 
 import LeetCode.Problems.AddTwoNumbers.*;
+import LeetCode.Problems.AddTwoNumbers.Solution;
+
 /**
  * Created by Rachel on 6/18/2017.
  */
 public class TestMain {
     public static void main(String [] args)
     {
-        Solution solution = new Solution();
+        LeetCode.Problems.AddTwoNumbers.Solution solution = new Solution();
 
         ListNode l1= new ListNode(new int[]{2,4,3});
         ListNode l2 = new ListNode(new int[]{5,6,4});
