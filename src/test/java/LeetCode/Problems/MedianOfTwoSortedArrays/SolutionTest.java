@@ -13,18 +13,7 @@ public class SolutionTest {
     static Solution q = new Solution();
 
 
-    public static void main(String[] args) {
 
-        LeetCode.Problems.MedianOfTwoSortedArrays.Solution tester = new LeetCode.Problems.MedianOfTwoSortedArrays.Solution(); // MySolution is tested
-
-        System.out.println(tester.findMedianSortedArrays(new int[]{1, 2, 6,7}, new int[]{3,4,5,8}));
-        //  System.out.println(tester.findMedianSortedArrays(new int[]{1}, new int[]{2,3,4}));
-//        SolutionTest test = new SolutionTest();
-//        double aaa = test.getMedianSortedArrays(new int[]{1,4}, new int[]{2,3});
-//        System.out.println(aaa);
-//        System.out.println(tester.findMedianSortedArrays(new int[]{1, 4}, new int[]{2, 3}));
-
-    }
 
     @Test
     public void TestSolution() {
